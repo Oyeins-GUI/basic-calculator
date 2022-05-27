@@ -14,17 +14,18 @@ let savedCal = document.querySelector('.saved-cal')
 
 // click event listeners on fetched elements
 saveBtn.addEventListener('click', () => {
-    let firstInput = document.querySelector('#first-input').value
-    let secondInput = document.querySelector('#second-input').value
-    let resultText = result.textContent
+    // let firstInput = document.querySelector('#first-input').value
+    // let secondInput = document.querySelector('#second-input').value
+    // let resultText = result.textContent
 
-    if (firstInput == '' && secondInput == '') {
-        savedCal.textContent += ''
-    } else if (firstInput == '' || secondInput == '') {
-        savedCal.textContent += ''
-    } else {
-        savedCal.textContent += "Still to come"
-    }
+    // if (firstInput == '' && secondInput == '') {
+    //     savedCal.textContent += ''
+    // } else if (firstInput == '' || secondInput == '') {
+    //     savedCal.textContent += ''
+    // } else {
+    //     savedCal.textContent += "Still to come"
+    // }
+    alert("This feature is yet to come.")
 })
 
 addition.addEventListener('click', () => {
