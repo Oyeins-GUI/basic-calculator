@@ -9,10 +9,6 @@
     font-weight: 700;
 }
 
-html {
-    min-width: 390px;
-}
-
 :root {
     --normal-state-bg: rgb(233, 231, 231);
     --body-bg: rgb(3, 3, 132);
@@ -25,7 +21,7 @@ body {
 }
 
 .main-cal {
-    max-width: 390px;
+    width: 520px;
     height: auto;
     position: absolute;
     top: 0;
@@ -33,6 +29,7 @@ body {
     right: 0;
     bottom: 0;
     margin: auto;
+    border: 1px solid white;
 }
 
 h1 {
@@ -89,7 +86,6 @@ input:hover {
     min-width: 55px;
     border-radius: 3px;
     font-size: 27px;
-    font-weight: 500;
     cursor: default;
 }
 
@@ -103,7 +99,6 @@ input:hover {
 p {
     color: var(--normal-state-bg);
     font-size: 30px;
-    font-weight: bold;
     margin-bottom: 15px;
 }
 
@@ -123,7 +118,6 @@ h1 {
 
 button {
     font-size: 25px;
-    font-weight: bold;
     margin: 10px;
     padding: 7px;
     width: 150px;
@@ -174,5 +168,4 @@ button:hover {
 .save-text,
 .saved-cal {
     font-size: 20px;
-    font-weight: normal;
 }
