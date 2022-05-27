@@ -22,14 +22,13 @@ body {
 
 .main-cal {
     width: 380px;
-    height: auto;
+/*     height: auto; */
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    border: 1px solid white;
 }
 
 h1 {
