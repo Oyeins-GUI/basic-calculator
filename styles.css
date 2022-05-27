@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    font-family: Roboto;
+    font-weight: 700;
 }
 
 html {
@@ -21,8 +25,8 @@ body {
 }
 
 .main-cal {
-    max-width: 400px;
-    height: 550px;
+    max-width: 390px;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
