@@ -21,8 +21,8 @@ body {
 }
 
 .main-cal {
-    width: 380px;
-/*     height: auto; */
+    width: 385px;
+    height: 560px;
     position: absolute;
     top: 0;
     left: 0;
