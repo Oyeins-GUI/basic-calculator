@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Basic Operations Calculator</title>
+</head>
+
+<body>
+    <div class="main-cal">
+        <!-- header -->
+        <div>
+            <h1>Basic Operations<br>Calculator</h1>
+        </div>
+
+        <!-- calculator input -->
+        <div class="calculator">
+            <div class="num-inputs">
+                <input type="number" id="first-input" class="num-input" value="" required>
+                <input type="number" id="second-input" class="num-input" value="" required>
+            </div>
+
+            <!-- error messages -->
+            <div class="err-msgs">
+                <div class="err-msg1 err-msg">
+                    <p class="first-input-err"></p>
+                </div>
+                <div class="err-msg2 err-msg">
+                    <p class="second-input-err"></p>
+                </div>
+            </div>
+
+            <!-- mathematical symbols -->
+            <div class="math-symbols">
+                <div class="add symbol">+</div>
+                <div class="mul symbol">×</div>
+                <div class="sub symbol">-</div>
+                <div class="div symbol">÷</div>
+            </div>
+
+            <!-- calculator result display -->
+            <div class="result-display">
+                <p>Result: <span class="math-result"></span></p>
+            </div>
+
+            <!-- clear & save button -->
+            <div class="calculator-btns">
+                <div>
+                    <button class="save-btn">Save</button>
+                </div>
+                <div>
+                    <button class="clear-btn">Clear</button>
+                </div>
+            </div>
+
+            <!-- saved calculations -->
+            <div class="save">
+                <p class="save-text">Saved Calculations: <span class="saved-cal"></span>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
